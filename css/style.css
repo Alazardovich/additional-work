@@ -11,3 +11,46 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.us-section {
+  position: relative;
+  display: inline-block;
+  width: 1088px;
+}
+.us-title {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 80px;
+  color: #000000;
+}
+.foto-us {
+  display: inline-block;
+
+  padding: 0;
+  width: 352px;
+  height: 752px;
+}
+.foto-us:first-child {
+  position: absolute;
+  top: 182px;
+  left: 38px;
+  width: 20px;
+  height: 30px;
+  outline: 2px solid teal;
+}
+.foto-us:last-child {
+  display: block;
+  z-index: 99;
+  top: 205px;
+  left: 296px;
+}
+.us-text {
+  position: absolute;
+  top: 182px;
+  right: 0;
+  width: 736px;
+}
