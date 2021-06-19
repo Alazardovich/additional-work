@@ -11,10 +11,21 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
 .us-section {
   position: relative;
   display: inline-block;
+  align-items: center;
+  justify-content: center;
   width: 1088px;
+  margin: 0;
+  padding: 0;
 }
 .us-title {
   font-family: PT Serif;
@@ -24,20 +35,19 @@
   line-height: 130%;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 80px;
   color: #000000;
+  padding: 0;
+  margin: 0;
 }
 .foto-us {
   display: inline-block;
-
-  padding: 0;
   width: 352px;
   height: 752px;
 }
 .foto-us:first-child {
   position: absolute;
-  top: 182px;
-  left: 38px;
+  top: 0;
+  left: 0;
   width: 20px;
   height: 30px;
   outline: 2px solid teal;
@@ -45,12 +55,24 @@
 .foto-us:last-child {
   display: block;
   z-index: 99;
-  top: 205px;
-  left: 296px;
+  bottom: 0;
+  left: 0;
 }
 .us-text {
   position: absolute;
-  top: 182px;
+  top: 0;
   right: 0;
   width: 736px;
+}
+.text-list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  color: #333333;
+}
+.text-list:first-child {
+  padding-top: 0;
+  margin-top: 0;
 }
