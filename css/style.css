@@ -13,7 +13,7 @@
 }
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 38px 0 38px;
   box-sizing: border-box;
 }
 img {
@@ -40,6 +40,7 @@ img {
   color: #000000;
   padding-top: 80px;
   margin: 0;
+  width: 1088px;
 }
 .first-foto {
   position: absolute;
