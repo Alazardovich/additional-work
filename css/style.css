@@ -14,10 +14,12 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 img {
   display: block;
 }
+
 .us-section {
   position: relative;
   display: inline-block;
@@ -36,31 +38,34 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  padding: 0;
+  padding-top: 80px;
   margin: 0;
 }
+.first-foto {
+  position: absolute;
+  top: 45px;
+  left: 38px;
+}
+.second-foto {
+  position: absolute;
+  z-index: 99;
+  bottom: 185px;
+  right: 33px;
+}
 .foto-us {
-  display: inline-block;
+  display: block;
   width: 352px;
   height: 752px;
 }
 .foto-us:first-child {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 20px;
-  height: 30px;
-  outline: 2px solid teal;
 }
 .foto-us:last-child {
   display: block;
-  z-index: 99;
-  bottom: 0;
-  left: 0;
 }
 .us-text {
   position: absolute;
-  top: 0;
+  top: 45px;
   right: 0;
   width: 736px;
 }
