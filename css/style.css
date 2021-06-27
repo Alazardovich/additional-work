@@ -5,7 +5,6 @@
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -19,16 +18,20 @@ body {
 img {
   display: block;
 }
-
-.us-section {
-  position: relative;
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  width: 1088px;
+.section {
+  padding-top: 80px;
+}
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+.us-position {
+  display: flex;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
 }
+
 .us-title {
   font-family: PT Serif;
   font-style: normal;
@@ -38,36 +41,25 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  padding-top: 80px;
-  margin: 0;
-  width: 1088px;
+  margin-top: 0;
+  margin-bottom: 45px;
 }
 .first-foto {
   position: absolute;
-  top: 45px;
-  left: 38px;
+  top: 0;
+  left: 0;
 }
 .second-foto {
   position: absolute;
-  z-index: 99;
-  bottom: 185px;
-  right: 33px;
+  top: 150px;
+  right: 0;
 }
 .foto-us {
-  display: block;
-  width: 352px;
-  height: 752px;
-}
-.foto-us:first-child {
-  position: absolute;
-}
-.foto-us:last-child {
-  display: block;
+  position: relative;
+  width: 384px;
+  margin-right: 40px;
 }
 .us-text {
-  position: absolute;
-  top: 45px;
-  right: 0;
   width: 736px;
 }
 .text-list {
